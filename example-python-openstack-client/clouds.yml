@@ -1,0 +1,10 @@
+clouds:
+    devstack:
+        region_name: RegionOne
+        auth:
+            username: 'admin'
+            password: supersecret
+            project_name: 'admin'
+            auth_url: 'http://devstack/identity/v3'
+            project_domain_name: 'Default'
+            user_domain_name: 'Default'
